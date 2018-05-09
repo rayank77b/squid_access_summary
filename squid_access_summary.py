@@ -51,7 +51,7 @@ def display():
 for line in fileinput.input():
         line = " ".join(line.split())
         lines = line.split(" ")
-        bytecnt = int(lines[1])
+        bytecnt = int(lines[4])
         ip = lines[2]
         zeitpunkt=int(lines[0].split(".")[0])
         if(zeitpunktstart==-1):
